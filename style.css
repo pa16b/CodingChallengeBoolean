@@ -1,0 +1,92 @@
+*{
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+     background-image: url(background.jpg);
+     background-size: cover, contain;
+     background-repeat: no-repeat;
+     background-color: #cccccc;
+     height: 500px;
+}
+
+.container{
+     background-color: rgba(0, 0, 0, 0.5);
+     margin: auto;
+     height: 640px;
+     width: 850px;
+     border-radius: 20px;
+     margin-top: 30px;
+}
+
+.page {
+     margin: auto;
+     width:85%;
+}
+
+header > img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 25%;
+     padding-top: 70px;
+}
+
+header > h1 {
+     width: 70%;
+     margin: auto;
+     padding-bottom: 3px;
+     color: rgb(52, 220, 11);
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     font-size: 1.4em;
+}
+
+nav {
+     background-color: rgb(52, 220, 11);
+     padding: 10px;
+     margin: auto;
+}
+
+nav > div {
+     margin: auto;
+     width: 43%;
+}
+
+section {
+     padding: 15px;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 200;
+     font-size: 0.75em;
+}
+
+section > h2 {
+     display: inline-block;
+}
+
+.freccia:after {
+     content: '\21A6';
+}
+
+.barra {
+     height: 23px;
+     border-radius: 5px;
+}
+
+.barra.section1 {
+     background-color: rgb(243,180,84);
+     width: 40%;
+}
+
+.barra.section2{
+     background-color: rgb(55,195,33);
+     width: 80%;
+}
+
+.barra.section3{
+     background-color: rgb(186,64,65);
+     width: 20%;
+}
